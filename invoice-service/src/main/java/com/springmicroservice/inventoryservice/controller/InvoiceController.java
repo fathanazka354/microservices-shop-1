@@ -9,9 +9,9 @@ import org.springframework.web.bind.annotation.*;
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/inventory")
+@RequestMapping("/api/invoice")
 @RequiredArgsConstructor
-public class InventoryController {
+public class InvoiceController {
     private final InventoryService inventoryService;
     @GetMapping
     @ResponseStatus(HttpStatus.OK)

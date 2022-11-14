@@ -1,4 +1,4 @@
-package com.springmicroservice.inventoryservice.dto;
+package com.springmicroservice.orderservice.dto;
 
 import lombok.AllArgsConstructor;
 import lombok.Builder;
